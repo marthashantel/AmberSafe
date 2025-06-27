@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AmberSafe - Emergency Alert</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+  <!-- Updated Font Awesome CDN -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-MXlYZd+FZ0mHdZ5tGOfuYITTXE+wqIx4Z9rA7EsLyBG5NqOcHfEIfUodC4eNLr0VZkWkkYQgU+WzHz6c+Izl2w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="./img/Pasted image.png" alt="User Profile Picture" class="profile-pic" onerror="this.src='./img/fallback-profile.png'" />
+      <h1>AmberSafe</h1>
+      <p>Emergency alert app with real-time location</p>
+    </header>
+
+    <section class="alert-section">
+      <button id="alertButton" aria-label="Send Emergency Alert">
+        <i class="fas fa-bell"></i> Send Emergency Alert
+      </button>
+      <div id="status" role="alert"></div>
+    </section>
+
+    <section class="contact-section">
+      <h2><i class="fas fa-user-friends"></i> Emergency Contacts</h2>
+      <form id="contactForm">
+        <input
+          type="text"
+          id="name"
+          placeholder="Contact Name"
+          required
+          aria-label="Contact Name"
+        />
+        <input
+          type="tel"
+          id="phone"
+          placeholder="Phone Number (e.g., +1234567890)"
+          pattern="\+?[1-9]\d{7,14}"
+          required
+          aria-label="Contact Phone Number"
+        />
+        <button type="submit" aria-label="Add Contact">
+          <i class="fas fa-plus-circle"></i> Add
+        </button>
+      </form>
+      <ul id="contactList" aria-live="polite"></ul>
+    </section>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
