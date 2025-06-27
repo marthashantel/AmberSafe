@@ -1,3 +1,14 @@
 {
-  "contacts": []
+  "contacts": [
+    {
+      "id": "4ebf",
+      "name": "Martha Shantel",
+      "phone": "+254113055627"
+    },
+    {
+      "id": "e869",
+      "name": "Benny Kangangi",
+      "phone": "+254117143684"
+    }
+  ]
 }
