@@ -87,4 +87,4 @@ ambersafe/
 
 ## 🧑‍💻 Author
 
-**[Your Name]** – [@marthashantel](https://github.com/marthashantel)
+**[Martha Shantel]** – [@marthashantel](https://github.com/marthashantel)
