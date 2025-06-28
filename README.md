@@ -48,7 +48,7 @@ Just open `index.html` in your browser using **Live Server** in VS Code or any s
 
 ## 📁 Project Structure
 
-```
+
 ambersafe/
 │
 ├── index.html         # Main HTML file
