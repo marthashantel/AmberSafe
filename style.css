@@ -23,7 +23,7 @@ header {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px (0, 0, 0, 0.2);
 }
 
 h1 {
@@ -32,9 +32,7 @@ h1 {
 }
 
 .alert-section,
-.contact-section {
-  background: white;
-  border-radius: 12px;
+.contact-section {  border-radius: 12px;
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
