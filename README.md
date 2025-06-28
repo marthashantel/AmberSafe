@@ -1,4 +1,3 @@
-
 # 📢 AmberSafe – Emergency Alert Web App
 
 AmberSafe is a simple, responsive web application that allows users to add emergency contacts and send AMBER alerts with their real-time geolocation. Built using HTML, CSS, JavaScript, and JSON Server, the app is fully functional and works locally.
