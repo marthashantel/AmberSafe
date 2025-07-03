@@ -2,9 +2,9 @@
   "name": "ambersafe-backend",
   "version": "1.0.0",
   "description": "AmberSafe backend using JSON Server for storing emergency contacts and alerts.",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "json-server --watch db.json --port 3000"
   },
   "repository": {
     "type": "git",
