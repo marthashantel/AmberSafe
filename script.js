@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/contacts';
+const API_URL = 'https://amber-safe-backend.onrender.com/contacts';
 const contactForm = document.getElementById('contactForm');
 const contactList = document.getElementById('contactList');
 const alertButton = document.getElementById('alertButton');
